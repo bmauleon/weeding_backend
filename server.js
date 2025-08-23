@@ -8,10 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createPool({
-  host: 'localhost',
-  user: 'magento-user',
-  password: 'bryant.UNAM8',
-  database: 'weedingbyl',
+  host: 'zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+  user: 'uwegjaaorxylaaci',
+  password: 'n6pf3u6czd443ubq',
+  database: 'wtvi5x2ad2kz04v8',
 });
 
 app.get('/', (req, res) => {
