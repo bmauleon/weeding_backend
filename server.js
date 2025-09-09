@@ -63,5 +63,5 @@ app.get('/list_comments/', (req, res) => {
     })
 })
 
-//app.listen(process.env.PORT || PORT, () => console.log('Server started on port 5000'));
-app.listen(5000, () => console.log('Server started on port 5000'));
+app.listen(process.env.PORT || PORT, () => console.log('Server started successfully'));
+//app.listen(5000, () => console.log('Server started on port 5000'));
