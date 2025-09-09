@@ -4,9 +4,9 @@ const Pool = require('pg').Pool
 
 const db = new Pool({
   user: 'weedingbyl_user',
-  host: 'localhost',
-  database: 'weddingbyl',
-  password: 'bryant.UNAM8',
+  host: 'dpg-d2vnacqli9vc738727j0-a.oregon-postgres.render.com',
+  database: 'weedingbyl',
+  password: 'B6yKzIyDtjBGOJQ1RFpF9NjMdMkvO9qL',
   port: 5432,
 })
 const app = express();
